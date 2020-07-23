@@ -1,0 +1,144 @@
+html {
+  scroll-behavior: smooth;
+}
+#header{
+	position:absolute;
+	z-index:10;
+	width:100%;
+}
+.navbar{
+background:#13111c;
+}
+.main{
+	position:relative;
+	background:url(../img/back.png);
+	min-height:100vh;
+	background-size:cover;
+	background-position:center;
+	padding:150px 0 200px;
+	
+}
+.navbar-nav a{
+	font-weight:500;
+	
+}
+.navbar-light .navbar-brand{
+	text-transform:uppercase;
+	letter-spacing:5px;
+	font-size:25px;
+	color:#e78fb3;
+	font-weight:700;
+	font-family:Roboto;
+	
+}
+ .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color:#CB972E;
+} 
+/* .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show> #current{
+	color:red;
+} */
+.navbar-light .navbar-nav .nav-link{
+	color:#fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color:#CB972E;
+}
+.collapse.show {
+	background:rgba(0,0,0,0.8);
+	
+}
+.navbar-toggler{
+	background:#C8A55F;
+	text-align:center;
+	margin:0px 37px
+}
+.card{
+		-webkit-box-shadow: 2px 5px 18px 0px  rgba(211,214,224,1);
+	-moz-box-shadow: 2px 5px 18px 0px  rgba(211,214,224,1);
+	box-shadow: 2px 5px 18px 0px  rgba(211,214,224,1);
+	background:black;
+	
+	border-radius:5px;
+	-webkit-transition:all .4s linear;/**new*/
+	transition:all .4s ease;/**new*/
+}
+label{
+	color:#bae8e8;
+	font-size:18px;
+	font-family:Roboto;
+	font-weight:700;
+}	
+#login{
+	background:#40B2FD;
+	width:100px;
+	border-radius:10px;
+	font-family:Roboto;
+	border:2px solid black;
+	font-size:16px;
+}
+#login:hover{
+	background:#1E97FC;
+	
+}
+#register{
+	background:#E4A2F5;
+	width:150px;
+	border-radius:10px;
+	font-family:Roboto;
+	border:2px solid black;
+	font-size:16px;
+}
+#register:hover{
+	background:#9DA1EF;
+	
+}
+.form-control{
+	background:none;
+	border:none;
+	
+	border-bottom:2px solid #6c4076;
+	height:35px;
+}
+.h3{
+	
+	color:#fffffe;
+	text-transform:uppercase;
+	letter-spacing:2px;
+}
+span{
+	color:#8CEEFF;
+}
+.h6{
+	font-size:20px;
+	font-family:Roboto;
+	 text-align: justify;
+	 color:#94a1b2;
+	 font-weight:300;
+}
+#data{
+	
+	background:#0F0E17;
+}
+.table-responsive{
+	background:#13111C;
+	
+}
+.h5{
+	color:#e78fb3;
+	font-size:25px;
+	font-family:Roboto;
+	border-bottom:2px solid #6c4076;
+	background:#13111C;
+	text-align:center;
+	letter-spacing:2px;
+	
+}
+thead{
+	color:#94a1b2;
+}
+tbody{
+	color:#fff;
+}
+
+
